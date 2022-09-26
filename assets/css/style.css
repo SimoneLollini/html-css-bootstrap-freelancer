@@ -1,0 +1,136 @@
+:root {
+    /* background: #0E38B5;
+    background: #333333;
+
+
+    background: #1C83C1;
+    background: #1EA4B6;
+
+    background: #140F0F;
+    background: #BA4B63;
+    background: #E05A49;
+    background: #E27B3E;
+    background: #CCB2A3;
+    background: #EFC74A;
+    background: #BBBFC2; */
+    --bs-grey_blue: #3A546D;
+    --bg-light_blue: #334D5C;
+    --bs-darker_blue: #2C3E50;
+    --bs_primary: #1ABC9C;
+}
+
+/* #region debug */
+
+/* #region grid/.debug */
+
+/* .debug [class^="col"] {
+    border: 1px solid;
+} */
+
+.debug [class^="col-"] {
+    height: 500px;
+}
+
+/* .debug [class^="col-1"] {
+    background-color: lightblue;
+}
+
+.debug [class^="col-2"] {
+    background-color: lightcoral;
+}
+
+.debug [class^="col-3"] {
+    background-color: lightgreen;
+}
+
+.debug [class^="col-4"] {
+    background-color: lightpink;
+}
+
+.debug [class^="col-5"] {
+    background-color: lightsalmon;
+}
+
+.debug [class^="col-6"] {
+    background-color: lightseagreen;
+}
+
+.debug [class^="col-7"] {
+    background-color: lightskyblue;
+}
+
+.debug [class^="col-8"] {
+    background-color: lightyellow;
+}
+
+.debug [class^="col-9"] {
+    background-color: lightsteelblue;
+}
+
+.debug [class^="col-10"] {
+    background-color: purple;
+}
+
+.debug [class^="col-11"] {
+    background-color: gold;
+}
+
+.debug [class^="col-12"] {
+    background-color: royalblue;
+} */
+
+/* #endregion grid/.debug */
+
+.debug header,
+.debug footer {
+    height: 80px;
+}
+
+.debug .start_bootstrap,
+.debug .about,
+.debug .contacts,
+.debug .address {
+    height: 450px;
+}
+
+.debug .portfolio_card {
+    background-color: red;
+    border: 1px solid;
+    height: 100%;
+}
+
+/* #endregion debug */
+
+/* #region utilities */
+.bg_primary {
+    background-color: var(--bs_primary);
+}
+
+.darker_blue {
+    background-color: var(--bs-darker_blue);
+}
+
+/* #endregion utilities */
+
+
+/* #region header */
+
+/* #endregion header */
+
+
+
+/* #region main */
+
+
+.address {
+    background-color: var(--bs-grey_blue);
+}
+
+/* #endregion main */
+
+
+
+/* #region footer */
+
+
+/* #endregion footer */
