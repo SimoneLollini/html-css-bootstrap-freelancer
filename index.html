@@ -5,6 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap-freelance</title>
+    <!-- FontAwesome 6.1.1 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- (Optional) Use CSS or JS implementation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"
+        integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -14,15 +23,15 @@
     <header id="site_header" class="darker_blue">
 
         <nav class="navbar navbar-expand-md navbar-dark py-2 text-uppercase">
-            <div class="container">
-                <a class="navbar-brand" href="#">Navbar</a>
+            <div class="container_sm contained-md container-lg">
+                <a class="navbar-brand" href="#">start bootstrap</a>
                 <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" href="#" aria-current="page">portfolio</a>
                         </li>
@@ -33,7 +42,6 @@
                             <a class="nav-link" href="#">contact</a>
                         </li>
                     </ul>
-
                 </div>
             </div>
         </nav>
@@ -44,53 +52,111 @@
     <!-- /#site_header -->
 
     <main id="site_main">
-        <section class="start_bootstrap bg_primary">
+        <section class="jumbotron bg_primary text-center text-white text-uppercase py-5">
+            <img src="./assets/img/avatar.svg" alt="" class="w-50">
+            <h1>start bootstrap</h1>
+            <div class="hr my-3">
+                <div class="py_3 rounded-2 border-white bg-light w-25 d-inline-block"></div>
+                <span><i class="fa-solid fa-star fa-2x align-middle"></i></span>
+                <div class="py_3 rounded-2 border-white bg-light w-25 d-inline-block"></div>
+            </div>
 
+            <div class="skill">graphic artist - web designer - illustrator</div>
         </section>
-        <section class="portfolio">
+        <!-- /END JUMBOTRON -->
+        <section class="portfolio text-center my-5">
+            <h2 class="text-uppercase color_darker_blue">portfolio</h2>
+            <div class="hr my-3">
+                <div class="py_3 rounded-2 darker_blue w-25 d-inline-block "></div>
+                <span class="color_darker_blue"><i class="fa-solid fa-star fa-2x align-middle"></i></span>
+                <div class="py_3 rounded-2 border-dark darker_blue w-25 d-inline-block"></div>
+            </div>
             <div class="container-sm container-md container-lg">
                 <div class="row my-3">
                     <div class="col-sm-12 col-md-6 col-lg-4 g-3">
-                        <div class="portfolio_card rounded-2">
-                            <div class="home"></div>
+                        <div class="portfolio_card">
+                            <div class="home">
+                                <img class="rounded-3" src="./assets/img/cabin.png" alt="">
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 g-3">
-                        <div class="portfolio_card rounded-2">
-                            <div class="sweet"></div>
+                        <div class="portfolio_card">
+                            <div class="sweet">
+                                <img class="rounded-3" src="./assets/img/cake.png" alt="">
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 g-3">
-                        <div class="portfolio_card rounded-2">
-                            <div class="circus"></div>
+                        <div class="portfolio_card">
+                            <div class="circus">
+                                <img class="rounded-3" src="./assets/img/circus.png" alt="">
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 g-3">
-                        <div class="portfolio_card rounded-2">
-                            <div class="game"></div>
+                        <div class="portfolio_card">
+                            <div class="game">
+                                <img class="rounded-3" src="./assets/img/game.png" alt="">
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 g-3">
-                        <div class="portfolio_card rounded-2">
-                            <div class="safe"></div>
+                        <div class="portfolio_card">
+                            <div class="safe">
+                                <img class="rounded-3" src="./assets/img/safe.png" alt="">
+                            </div>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-4 g-3">
-                        <div class="portfolio_card rounded-2">
-                            <div class="submarine"></div>
+                        <div class="portfolio_card">
+                            <div class="submarine">
+                                <img class="rounded-3" src="./assets/img/submarine.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- /END PORTFOLIO -->
 
-        <section class="about bg_primary">
+        <section class="about bg_primary text-white">
+            <div class="about_head text-center">
+                <h2 class="text-uppercase">about</h2>
+                <div class="hr my-3">
+                    <div class="py_3 rounded-2 border-white bg-light w-25 d-inline-block"></div>
+                    <span><i class="fa-solid fa-star fa-2x align-middle"></i></span>
+                    <div class="py_3 rounded-2 border-white bg-light w-25 d-inline-block"></div>
+                </div>
+            </div>
+            <div class="about_body text-left w-75 m-auto">
+                <div class="row">
+                    <div class="col-12 p-3 col-md-6">Freelancer is a free bootstrap theme created by Start
+                        Bootstrap. The download includes the complete
+                        source files including HTMl©C and-lavaSerint as
+                        well as optional LESS stvlesheets for easv
+                        customization.
+                    </div>
+                    <div class="col-12 p-3 col-md-6">
+                        Whether you're a student looking to showcase your
+                        work, a professional looking to attract clients, or a
+                        graphic artist looking to share vour projects, this
+                        template is the perfect starting point!
+                    </div>
+                </div>
+            </div>
+            <div class="about_call_to_action text-center">
+                <a href="" class="btn btn-outline-light">download</a>
+            </div>
 
         </section>
+        <!-- /END ABOUT -->
 
         <section class="contacts"></section>
+        <!-- /END CONTACTS -->
 
         <section class="address"></section>
+        <!-- /END ADRESS -->
 
     </main>
     <!-- /#site_main -->

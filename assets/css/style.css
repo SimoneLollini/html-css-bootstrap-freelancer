@@ -1,20 +1,6 @@
 :root {
-    /* background: #0E38B5;
-    background: #333333;
-
-
-    background: #1C83C1;
-    background: #1EA4B6;
-
-    background: #140F0F;
-    background: #BA4B63;
-    background: #E05A49;
-    background: #E27B3E;
-    background: #CCB2A3;
-    background: #EFC74A;
-    background: #BBBFC2; */
-    --bs-grey_blue: #3A546D;
-    --bg-light_blue: #334D5C;
+    /* --ms-blue-sof: #3A546D; */
+    /* --bg-light_blue: #334D5C; */
     --bs-darker_blue: #2C3E50;
     --bs_primary: #1ABC9C;
 }
@@ -102,6 +88,10 @@
 /* #endregion debug */
 
 /* #region utilities */
+img {
+    max-width: 100%;
+}
+
 .bg_primary {
     background-color: var(--bs_primary);
 }
@@ -109,6 +99,15 @@
 .darker_blue {
     background-color: var(--bs-darker_blue);
 }
+
+.py_3 {
+    padding: 3px 0;
+}
+
+.color_darker_blue {
+    color: var(--bs-darker_blue);
+}
+
 
 /* #endregion utilities */
 
@@ -123,8 +122,10 @@
 
 
 .address {
-    background-color: var(--bs-grey_blue);
+    background-color: var(--ms-blue-softy_blue);
 }
+
+
 
 /* #endregion main */
 
