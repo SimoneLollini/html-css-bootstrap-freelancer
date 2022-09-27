@@ -1,9 +1,12 @@
 :root {
     /* --ms-blue-sof: #3A546D; */
     /* --bg-light_blue: #334D5C; */
+    --dark_light: #333333;
     --bs-darker_blue: #2C3E50;
     --bs_primary: #1ABC9C;
 }
+
+
 
 /* #region debug */
 
@@ -74,7 +77,7 @@
 
 .debug .start_bootstrap,
 .debug .about,
-.debug .contacts,
+.debug .contact,
 .debug .address {
     height: 450px;
 }
@@ -108,6 +111,9 @@ img {
     color: var(--bs-darker_blue);
 }
 
+.dark_light {
+    color: var(--dark_light);
+}
 
 /* #endregion utilities */
 
