@@ -115,6 +115,10 @@ img {
     color: var(--dark_light);
 }
 
+.c_primary {
+    color: var(--bs_primary);
+}
+
 /* #endregion utilities */
 
 
@@ -139,5 +143,14 @@ img {
 
 /* #region footer */
 
+.item {
+    width: 10%;
+}
+
+.item>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* #endregion footer */
